@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    background-color: #eeeeee;
+}
+header {
+    height: 112px;
+    background-color: #ffffff;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+/* 基本 */
+body {
+    margin: 0;
+    background-color: #eeeeee;
+}
+/* 横幅と左右の余白 */
+.w-container {
+    width: min(92%, 1166px);
+    margin: auto;
+}
